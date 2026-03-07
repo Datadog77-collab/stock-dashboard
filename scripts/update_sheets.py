@@ -23,7 +23,8 @@ df = pd.read_csv("data/stock_price_timeseries.csv")
 # ★ 重要：NaN対策
 df = df.fillna("")
 
-# シート更新sheet.clear()
+# シート更新
+sheet.clear()
 sheet.update([df.columns.values.tolist()] + df.values.tolist())
 
 print("Google Sheets updated")
