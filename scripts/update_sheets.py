@@ -14,7 +14,7 @@ creds = Credentials.from_service_account_file(
 
 client = gspread.authorize(creds)
 
-spreadsheet = client.open("stock_data")
+spreadsheet = client.open("stock_price_timeseries")
 
 sheet = spreadsheet.sheet1
 
