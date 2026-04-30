@@ -203,7 +203,7 @@ market_index = {
     "USDJPY": "JPY=X"
 }
 
-period = "2y"
+period = "3y"
 
 result = []
 
